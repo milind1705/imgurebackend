@@ -60,6 +60,6 @@ app.get('/imgure',(req,res) => {
     res.redirect('/imgure',{User: imgUser})
 })
 
-app.listen(3000, (req, res) => {
-    console.log('server started @ 3000')
+app.listen(4000, (req, res) => {
+    console.log('server started @ 4000')
 })
